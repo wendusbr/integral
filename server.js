@@ -1,10 +1,12 @@
 import { createServer } from 'node:http'
 import { Integral } from './integral.js'
+import { Functions } from './functions.js'
 
 const server = createServer((request, response) => {
     const integral = new Integral()
+    const functions = new Functions()
 
-    console.log(integral.squareFunction_Numeric(5, 0, 100))
+    console.log(integral.rectangle(0, 5, 100, functions.squareFunction))
 
     return response.end()
 })
