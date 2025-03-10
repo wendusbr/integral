@@ -1,5 +1,5 @@
-import {createServer} from 'node:http'
-import {Integral} from './integral.js'
+import { createServer } from 'node:http'
+import { Integral } from './integral.js'
 
 const server = createServer((request, response) => {
     const integral = new Integral()
