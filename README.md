@@ -21,8 +21,8 @@ A tabela abaixo mostra o processo do cálculo das áreas dos _p_ retângulos for
 | _delta_ | _f(x0 + delta)_ | _f(x0 + delta)delta_ |
 | _delta_ | _f(x0 + 2 delta)_ | _f(x0 + 2 delta)delta_ |
 |...|...|...|
-| _delta_ | _f(x0 - 2 delta)_ | _f(x0 - 2 delta)delta_ |
-| _delta_ | _f(x0 - delta)_ | _f(x0 - delta)delta_ |
+| _delta_ | _f(x - 2 delta)_ | _f(x - 2 delta)delta_ |
+| _delta_ | _f(x - delta)_ | _f(x - delta)delta_ |
 
 _Área total = f(x0)delta + f(x0 + delta)delta + f(x0 + 2 delta)delta + ... + f(x - 2 delta)delta + f(x - delta)delta_
 
